@@ -1,0 +1,451 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	cursor: url(multimedia/logo/cursor.png), auto;
+}
+
+a:hover {
+	cursor: url(multimedia/logo/cursor-hover.png), auto;
+}
+
+:root {
+	scroll-behavior: smooth;
+}
+
+body {
+	z-index: 100;
+	background-color: #212121;
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+
+/*-------------------------------- NAV -------------------------------*/
+
+.logo {
+	width: 200px;
+	top: 0;
+	left: 0;
+}
+
+.nav {
+	width: 100%;
+	height: 100px;
+	display: inline-flex;	
+	padding-left: 900px;
+}
+
+@media screen and (max-width: 1560px) {
+	.nav {
+	padding-left: 200px;
+	}
+}
+
+.nav a {
+	width: 160px;
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 20px;
+	text-align: center;
+	margin: 25px;
+	border-radius: 5px;
+	color: #a1a1a1;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
+.nav a:hover {
+	background-color: black;
+	color: white;
+}
+
+.hello-developer {
+	padding-top: 19px !important;
+	min-width: 160px !important;
+	min-height: 60px !important;
+	border-radius: 5px;
+	color: white !important;
+	border: 2px solid #ff0571;
+	background-color: #ff0571;
+	transition: all 0.3s ease;
+}
+
+.hello-developer:hover {
+	color: #ff0571 !important;
+}
+
+
+
+/*------------------------------------------- PORTADA -------------*/
+
+.header-portada {
+	width: 100%;
+	height: 1100px;
+}
+
+.titulo-developer {
+	margin-top: 130px;
+	width: 100%;
+	height: 800px;
+	text-align: center;
+	z-index: 5;
+	position: absolute;
+}
+
+.vector1 {
+	position: relative;
+}
+
+span {
+	color: #ff0571;
+}
+
+
+.titulo-developer h1 {
+	font-size: 100px;
+}
+
+.titulo-developer h2 {
+	color: #a1a1a1;
+	font-weight: normal;
+}
+
+/*------ left -----*/
+
+.left-redes {
+	margin-top: 10%;
+	position: fixed;
+	width: 80px;
+	height: 250px;
+	z-index: 10;
+	background-color: black;
+}
+
+.icono {
+	margin: 15px;
+	width: 47px;
+	transition: all 0.3s ease;
+}
+
+.icono:hover {
+	width: 54px;
+}
+
+/*------------------- about me -----*/
+.section-about {
+	margin-top: 7%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 300px 40px 400px;
+}
+
+.section-about h2 {
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.section-about p {
+	color:  #a1a1a1;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 90px 20px 150px;
+}
+
+.container {
+	width: 100%;
+	height: 430px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.container p {
+	color: #a1a1a1;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 50px 20px
+}
+
+.container .card-programs {
+	width: 700px;
+	height: 430px;
+	padding: 40px;
+	color: white;
+	border-radius: 5px;
+	background-color: black;
+	overflow: hidden;
+	margin: 100px 50px;
+	text-align: center;
+}
+
+.card {
+	width: 100px;
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1700px) {
+	.container .card-programs {
+		width: 700px;
+		height: 330px;
+	}
+}
+
+
+/*----------------- portfolio  -----------------*/
+
+
+.section-portfolio {
+	padding: 3%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+@media screen and (max-width: 1700px) {
+	.section-portfolio {
+	padding: 3%;
+	margin-top: 20%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	}
+}
+
+.section-portfolio h2 {
+	margin-bottom: 90px;
+	font-size: 40px;
+}
+
+
+
+.section-portfolio p {	
+	color: #a1a1a1;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 50px 20px
+}
+
+
+.img-galeria {
+	border-radius: 2px;
+	width: 700px;
+	margin: 20px;
+	filter: grayscale(100%);
+	transition: all 0.4s ease;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.img-galeria-avo {
+	border-radius: 2px;
+	width: 700px;
+	margin: 20px;
+	filter: grayscale(100%);
+	transition: all 0.4s ease;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.img-galeria-avo-mobile {
+	border-radius: 2px;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+	width: 200px;
+	margin: 20px;
+	filter: grayscale(100%);
+	transition: all 0.4s ease;
+}
+
+.img-galeria:hover, .img-galeria-avo:hover, .img-galeria-avo-mobile:hover {
+    filter: grayscale(0%);
+}
+
+.portfolio1 {
+	margin-bottom: 200px;
+}
+
+
+/*-----------------contact -------------------------*/
+
+.section-contact {
+	width: 100%;
+	height: 1000px;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.section-contact h2 {
+	font-size: 40px;
+	margin-bottom: 90px;
+}
+.contacto1 {
+	width: 80%;
+	margin: auto;
+	border:  1px solid black;
+	padding: 150px;
+	display: block;
+  	background: black;
+}	
+
+input {
+	border: 0;
+	outline: 0;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	appearance: none;
+	border-radius: 5px;
+}
+
+label {
+	display: block;
+	margin-bottom: 24px;
+	width: 100%;
+}
+
+.button {
+	margin-top: 30px;
+	margin-left: auto;
+  	margin-right: auto; 
+	height: 50px;
+	width: 200px;
+	background-color: #ff0571;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 13px;
+	color: white;
+	font-weight: bold;
+	padding-top: 5px;	
+	transition: background 0.2s ease;
+}
+
+.button:hover {
+	color: white;
+	background-color: #b30254;
+}
+
+textarea {
+	border-radius: 5px;
+	outline: 0;
+	padding: 16px;
+	margin-top: 30px;
+	margin-right: 8px;
+	appearance: none;
+	border-color: #cfcfcf;
+	resize: none;
+	width: 400px;
+	height: 100px;
+}
+
+/*------------------ responsive mobile --------------------*/
+
+@media screen and (max-width: 500px) {
+
+	body {
+	background-color: #121212;
+	}
+	
+	.nav {
+		width: 100%;
+		padding-left: 115px;
+	}
+	.nav a {
+		width: 70px;
+		padding-top: ;
+		font-size: 13px;
+		margin: 20px;
+	}
+
+	.hello-developer {
+		padding-top: 20px !important;
+		min-width: 100px !important;
+		min-height: 50px !important;
+	}
+
+	/*------ hasta aqui el nav -------*/
+	.titulo-developer {
+		margin-top: 0;
+		margin-left: 100px;
+	}
+
+	.header-portada {
+		height: 450px;
+	}
+
+	.titulo-developer h1 {
+		font-size: 45px;
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+
+	.vector1 {
+		width: 400px;
+		position: relative;
+	}
+
+	/*------- about --------*/
+
+	.about-me {
+		margin-left: 100px;
+		width: 100%;
+		padding: 170px 0px 7px;
+	}
+
+	.container {
+		margin-left: 100px;
+	}
+
+	.container .card-programs {
+		padding: 25px;
+		margin: 55px -130px;
+		height: 360px;
+	}
+
+	/*--- portfolio -----*/
+
+	.section-portfolio {
+		margin-left: 100px;
+		width: 100%;
+		padding: 150px 0px 7px;
+	}
+
+	/* ----- contacto -----*/
+
+	.section-contact {
+		margin-left: 100px;
+		margin-top: 200px;
+		height: 770px;
+	}
+
+	.contacto1 {
+		padding: 46px;
+		width: 100%;
+	}
+
+	textarea {
+		width: 200px;
+	}
+
+	input {
+		padding: 5px;
+	}
+
+	/*---- left redes ------*/
+
+	.left-redes {
+		margin-top: 10%;
+		position: fixed;
+		width: 50px;
+		height: 160px;
+		z-index: 10;
+		background-color: black;
+	}
+
+	.icono {
+		margin: 7px;
+		width: 35px;
+		transition: all 0.3s ease;
+	}
+}
