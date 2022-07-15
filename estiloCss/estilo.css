@@ -114,8 +114,6 @@ span {
 }
 
 .focused {
-	display:  block;
-	font-family: monospace;
 	border-right: 4px solid;
 	white-space: nowrap;
 	width: 36ch;
