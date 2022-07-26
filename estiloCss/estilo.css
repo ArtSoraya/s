@@ -266,7 +266,7 @@ span {
 	transition: all 0.4s ease;
 }
 
-.img-galeria:hover, .img-galeria-responsive:hover .img-galeria-avo:hover, .img-galeria-avo-mobile:hover {
+.img-galeria:hover, .img-galeria-responsive:hover, .img-galeria-avo:hover, .img-galeria-avo-mobile:hover {
     filter: grayscale(0%);
 }
 
